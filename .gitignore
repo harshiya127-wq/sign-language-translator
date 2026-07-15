@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# User Data / Model files
+# (Ignored because they are generated programmatically or can be very large)
+data/gesture_model.pkl
+data/landmarks_dataset.csv
+
+# Editors and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
